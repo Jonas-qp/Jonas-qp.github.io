@@ -3,19 +3,8 @@
   <entry>
     <title>Hello World</title>
     <url>/2022/03/24/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <content><![CDATA[<h1 id="利用网页缓存"><a href="#利用网页缓存" class="headerlink" title="利用网页缓存"></a>利用网页缓存</h1><p>浏览器缓存是允许访客的浏览器缓存你网站页面副本的一个功能。这有助于访客再次访问时，直接从缓存中读取内容而不必重新加载。这节省了向服务器发送HTTP请求的时间。此外，通过优化您的网站的缓存系统往往也会降低您的网站的带宽和托管费用。</p>
+<h1 id="启用GZIP压缩"><a href="#启用GZIP压缩" class="headerlink" title="启用GZIP压缩"></a>启用GZIP压缩</h1><p>　　在服务器上压缩网站的页面是提升网站访问速度非常有效的一种方法。你可以用gzip压缩做到这一点。Gzip是一个减小发送给访客的HTML文件、JS和CSS体积的工具。压缩的文件减少了HTTP响应时间。据Yahoo报道，这大概可以减少70%的下载时间。而目前90%的通过浏览器的流量都支持Gzip压缩，因此，这是一个提示网站性能有效的选项。</p>
 ]]></content>
   </entry>
 </search>
