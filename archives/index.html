@@ -250,13 +250,30 @@
         <div class="brand">
             <div class="title center-align">
                 
-                    subtitle
+                一叶知秋
                 
             </div>
 
             <div class="description center-align">
                 
-                    晴天时爱晴，雨天时爱雨。
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: [ 
+                            
+                                "愿你走出半生，归来仍是少年",
+                            
+                                "May you walk out of half your life and return as a teenager",
+                            
+                        ],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
                 
             </div>
         </div>
@@ -475,12 +492,12 @@
                    type="playlist"
                    id="503838841"
                    fixed='true'
-                   autoplay='false'
+                   autoplay='true'
                    theme='#42b983'
                    loop='all'
                    order='random'
                    preload='auto'
-                   volume='0.5'
+                   volume='0.4'
                    list-folded='true'
         >
         </meting-js>
